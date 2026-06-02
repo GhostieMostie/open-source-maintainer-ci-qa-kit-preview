@@ -1,0 +1,36 @@
+{
+  "project": "Example Open Source App",
+  "workItem": "Fix upload validation error message",
+  "repo": "example/example-app",
+  "issueUrl": "https://github.com/example/example-app/issues/123",
+  "paymentRoute": "Public bounty issue, not assigned yet",
+  "claimStatus": "Do not claim until maintainer confirms assignment rules",
+  "problem": "Users receive a generic error when uploading an unsupported file type.",
+  "expected": "The upload form should explain which file types are accepted.",
+  "actual": "The upload form shows a generic failure message.",
+  "scope": "Update validation messaging and add focused tests for unsupported file extensions.",
+  "outOfScope": "Changing upload storage, auth, billing, or supported file types.",
+  "reproductionSteps": [
+    "Open the upload form.",
+    "Select a .tmp file.",
+    "Submit the form.",
+    "Observe the generic error message."
+  ],
+  "validationCommands": [
+    "npm test -- upload-validation",
+    "npm run typecheck",
+    "npm run build"
+  ],
+  "ciStatus": "Local checks planned; remote CI unknown until PR opens.",
+  "risks": [
+    "Copy changes may need product review.",
+    "Existing snapshots may need intentional updates."
+  ],
+  "rollback": "Revert the validation-message copy and related tests.",
+  "reviewAsk": "Please verify the unsupported-file error copy and focused test coverage.",
+  "publicFacts": [
+    "Issue URL is public.",
+    "No maintainer assignment has been posted yet.",
+    "Payment route should be confirmed before a public claim."
+  ]
+}

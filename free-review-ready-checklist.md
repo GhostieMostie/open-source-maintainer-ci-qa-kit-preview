@@ -55,6 +55,6 @@ A strong follow-up reduces reviewer work. A weak follow-up just asks for attenti
 
 ## Full Kit
 
-The full Open-Source Maintainer CI and QA Kit includes reusable templates, a one-hour validation workflow, and a worked example evidence pack:
+The full Open-Source Maintainer CI and QA Kit includes a no-dependency evidence-pack generator, reusable templates, a one-hour validation workflow, and a worked example evidence pack:
 
 https://buy.polar.sh/polar_cl_TKClMaFhmU2f2LYHXKLnBdRN8rDgyvZTudbzU1zFj0G

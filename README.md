@@ -14,6 +14,8 @@ Use it to turn vague bugs, bounties, and pull requests into review-ready evidenc
 
 ## Included In The Paid Kit
 
+- No-dependency evidence-pack generator.
+- Sample JSON brief that generates a ready-to-edit review folder.
 - Start-here workflow for maintainers, contributors, and bounty work.
 - Bug reproduction brief.
 - CI evidence matrix.
@@ -31,6 +33,7 @@ Use it to turn vague bugs, bounties, and pull requests into review-ready evidenc
 Start with the free checklist:
 
 - [Free review-ready checklist](./free-review-ready-checklist.md)
+- [Sample generator brief](./sample-generator-brief.json)
 
 Have a public-safe template request or CI/review handoff pain point?
 

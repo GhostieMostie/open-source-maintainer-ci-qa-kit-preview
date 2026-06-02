@@ -32,6 +32,10 @@ Start with the free checklist:
 
 - [Free review-ready checklist](./free-review-ready-checklist.md)
 
+Have a public-safe template request or CI/review handoff pain point?
+
+- [Leave feedback or request a template](https://github.com/GhostieMostie/open-source-maintainer-ci-qa-kit-preview/issues/1)
+
 ## Get The Full Kit
 
 The full downloadable kit is $29:

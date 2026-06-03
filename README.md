@@ -34,6 +34,7 @@ See the system shape before buying:
 
 - [Sample generator brief](./sample-generator-brief.json)
 - [Free review-ready checklist](./free-review-ready-checklist.md)
+- [Free review router](./free-review-router.md)
 
 ## Before / After
 
@@ -65,6 +66,13 @@ Update validation messaging and add focused tests for unsupported file extension
 - Issue URL is public.
 - No maintainer assignment has been posted yet.
 - Payment route should be confirmed before a public claim.
+```
+
+The review-router flow adds a decision before you ask for attention:
+
+```md
+Decision: needs-payment-clarification
+Smallest next action: do not claim assignment or payment; ask one narrow rules question or state only public facts.
 ```
 
 Have a public-safe template request or CI/review handoff pain point?

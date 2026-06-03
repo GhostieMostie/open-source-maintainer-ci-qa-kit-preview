@@ -2,7 +2,7 @@
 
 A practical evidence-pack system for open-source maintainers, paid contributors, and small engineering teams.
 
-Use it to turn vague bugs, bounties, and pull requests into review-ready evidence packs with reproduction notes, validation commands, CI status, scope boundaries, reviewer risk notes, and public payment-claim safety checks.
+Use it when a maintainer has to decide whether a PR, bug report, or paid-work follow-up is review-ready in under 5 minutes. The kit turns vague bugs, bounties, and pull requests into evidence packs with reproduction notes, validation commands, CI status, scope boundaries, reviewer risk notes, and public payment-claim safety checks.
 
 ## What It Helps With
 
@@ -30,10 +30,42 @@ Use it to turn vague bugs, bounties, and pull requests into review-ready evidenc
 
 ## Free Preview
 
-Start with the free checklist:
+See the system shape before buying:
 
-- [Free review-ready checklist](./free-review-ready-checklist.md)
 - [Sample generator brief](./sample-generator-brief.json)
+- [Free review-ready checklist](./free-review-ready-checklist.md)
+
+## Before / After
+
+Weak follow-up:
+
+> Fixed this, please review. CI failed because of secrets. Can I get the bounty?
+
+Review-ready follow-up:
+
+> Scope: upload validation copy only. Evidence: unsupported `.tmp` upload now shows accepted file types. Local checks: `npm test -- upload-validation`, `npm run typecheck`. Remote CI: deployment secret unavailable to forks, not code-actionable. Risk: product copy may need maintainer wording approval. Payment claim: not asserted until maintainer confirms assignment rules.
+
+## Generated Output Shape
+
+The sample generator brief turns structured input into a review folder. A short excerpt looks like this:
+
+```md
+## Scope
+
+Update validation messaging and add focused tests for unsupported file extensions.
+
+## Validation
+
+- npm test -- upload-validation
+- npm run typecheck
+- npm run build
+
+## Public Payment Facts
+
+- Issue URL is public.
+- No maintainer assignment has been posted yet.
+- Payment route should be confirmed before a public claim.
+```
 
 Have a public-safe template request or CI/review handoff pain point?
 
@@ -41,7 +73,7 @@ Have a public-safe template request or CI/review handoff pain point?
 
 ## Get The Full Kit
 
-The full downloadable kit is $29:
+Full kit = generator + templates + worked evidence pack for turning one PR into a review-ready folder. The full downloadable kit is $29:
 
 https://buy.polar.sh/polar_cl_TKClMaFhmU2f2LYHXKLnBdRN8rDgyvZTudbzU1zFj0G
 

@@ -71,6 +71,10 @@ Have a public-safe template request or CI/review handoff pain point?
 
 - [Leave feedback or request a template](https://github.com/GhostieMostie/open-source-maintainer-ci-qa-kit-preview/issues/1)
 
+## Not The Right Kit?
+
+If the problem is specifically failed GitHub Actions, Playwright/Cypress flakes, Vercel/Codecov auth-only checks, or fork-secret CI ambiguity, use the [Flaky CI War Room Kit](https://github.com/GhostieMostie/flaky-ci-war-room-kit-preview).
+
 ## Get The Full Kit
 
 Full kit = generator + templates + worked evidence pack for turning one PR into a review-ready folder. The full downloadable kit is $29:
